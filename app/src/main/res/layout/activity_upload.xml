@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="@drawable/bg"
+    tools:context="com.bluelock.recyclerviewrevision.UploadActivity">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="20dp">
+
+        <EditText
+            android:id="@+id/uploadOwnerName"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:autofillHints=""
+            android:background="@drawable/green_border"
+            android:gravity="start|center_vertical"
+            android:hint="@string/enter_owner_name"
+            android:inputType="text"
+            android:padding="16dp"
+            android:textColor="@color/Green"
+            android:textColorHint="#000000"
+            tools:ignore="VisualLintTextFieldSize,TextContrastCheck,DuplicateSpeakableTextCheck" />
+
+        <EditText
+            android:id="@+id/uploadVehicleBrand"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:autofillHints=""
+            android:background="@drawable/green_border"
+            android:gravity="start|center_vertical"
+            android:hint="@string/enter_vehicle_brand"
+            android:inputType="text"
+            android:padding="16dp"
+            android:textColor="@color/Green"
+            android:textColorHint="#000000"
+            tools:ignore="VisualLintTextFieldSize,TextContrastCheck" />
+
+        <EditText
+            android:id="@+id/uploadVehicleRto"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:autofillHints=""
+            android:background="@drawable/green_border"
+            android:gravity="start|center_vertical"
+            android:hint="@string/enter_vehicle_rto"
+            android:inputType="text"
+            android:padding="16dp"
+            android:textColor="@color/Green"
+            android:textColorHint="#000000" />
+
+        <EditText
+            android:id="@+id/uploadVehicleNumber"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:autofillHints=""
+            android:background="@drawable/green_border"
+            android:gravity="start|center_vertical"
+            android:hint="@string/enter_vehicle_number"
+            android:inputType="text"
+            android:paddingBottom="16dp"
+            android:paddingTop="16dp"
+            android:paddingStart="22dp"
+            android:paddingEnd="22dp"
+            android:textColor="@color/Green"
+            android:textColorHint="#000000"
+            tools:ignore="TextFields,VisualLintTextFieldSize,TextContrastCheck" />
+
+</LinearLayout>
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/green_border"
+        android:text="@string/save"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:paddingBottom="16dp"
+        android:paddingTop="16dp"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

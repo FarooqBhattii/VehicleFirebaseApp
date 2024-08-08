@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "162687655456",
+    "project_id": "recyclerviewplusfirebase",
+    "storage_bucket": "recyclerviewplusfirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:162687655456:android:51a20e06bea4a20f2ae645",
+        "android_client_info": {
+          "package_name": "com.bluelock.recyclerviewrevision"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAA1aMQhk91EidW9Mqd5wIJMLp8RCIxNhE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

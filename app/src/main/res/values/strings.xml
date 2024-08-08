@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">RecyclerViewRevision</string>
+    <string name="upload">Upload</string>
+    <string name="enter_owner_name">Enter Owner Name</string>
+    <string name="enter_vehicle_brand">Enter Vehicle Brand</string>
+    <string name="enter_vehicle_number">Enter Vehicle Number</string>
+    <string name="save">Save</string>
+    <string name="enter_vehicle_rto">Enter Vehicle RTO</string>
+    <string name="enter_vehicle_numberd">Enter Vehicle Number</string>
+    <string name="search">Search</string>
+    <string name="owner_name">Owner Name</string>
+    <string name="vehicle_brand">Vehicle Brand</string>
+    <string name="vehicle_rto">Vehicle RTO</string>
+    <string name="searchf">Search</string>
+</resources>
